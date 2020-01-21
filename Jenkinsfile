@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        echo 'Pentaho version: ${PENTAHO_VERSION}'
+        sh 'echo Pentaho version: ${PENTAHO_VERSION}'
       }
     }
 
