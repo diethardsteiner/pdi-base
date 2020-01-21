@@ -6,7 +6,7 @@ pipeline {
 
   }
   stages {
-    stage('') {
+    stage('message') {
       steps {
         sh 'echo Pentaho version: ${PENTAHO_VERSION}'
       }
